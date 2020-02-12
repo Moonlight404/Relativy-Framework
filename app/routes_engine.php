@@ -1,7 +1,11 @@
 <?php
 function route($link, $file){
+    if($link === "/"){
+        view($file);
+    }else{
     $ht = fopen("./.htaccess","a");
     fwrite($ht, "RewriteRule ^$link /views/$file.php [L]\n");
+    }
 }
 
 function clear(){

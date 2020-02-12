@@ -1,2 +1,2 @@
 <?php
-route("dashboard", "welcome");
+route("/", "welcome");
