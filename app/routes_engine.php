@@ -1,7 +1,7 @@
 <?php
-function route($link, $file){
+function route($link){
     $ht = fopen("../public/.htaccess","a");
-    fwrite($ht, "RewriteRule ^$link ./views/$file.php [L]\n");
+    fwrite($ht, "RewriteRule ^$link ./views/$link.php [L]\n");
 }
 
 function clear(){

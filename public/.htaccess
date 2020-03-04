@@ -1,2 +1,2 @@
 RewriteEngine on
-RewriteRule ^eltinho ./views/eltinho.php [L]
+RewriteRule ^helloWorld ./views/helloWorld.php [L]
