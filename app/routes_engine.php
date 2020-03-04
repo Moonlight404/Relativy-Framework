@@ -1,15 +1,11 @@
 <?php
 function route($link, $file){
-    if($link === "/"){
-        view($file);
-    }else{
-    $ht = fopen("./.htaccess","a");
-    fwrite($ht, "RewriteRule ^$link /views/$file.php [L]\n");
-    }
+    $ht = fopen("../public/.htaccess","a");
+    fwrite($ht, "RewriteRule ^$link ./views/$file.php [L]\n");
 }
 
 function clear(){
-    $ht = fopen("./.htaccess","w");
+    $ht = fopen("../public/.htaccess","w");
     //open file to write
     // clear content to 0 bits
     ftruncate($ht, 0);
@@ -17,7 +13,7 @@ function clear(){
 }
 
 function rewrite(){
-    $ht = fopen("./.htaccess","a");
+    $ht = fopen("../public/.htaccess","a");
     fwrite($ht, "RewriteEngine on\n");
 }
 
