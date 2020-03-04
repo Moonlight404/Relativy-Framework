@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^eltinho /views/eltinho.php [L]
