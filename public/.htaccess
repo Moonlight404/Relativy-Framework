@@ -1,2 +1,1 @@
 RewriteEngine on
-RewriteRule ^helloWorld ./views/helloWorld.php [L]
