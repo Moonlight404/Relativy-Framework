@@ -5,7 +5,6 @@
  * @package  Relavify
  * @author   Alexandre Silva
  */
-require ('app/autoload.php');
-
-//Inicia server
-serverInit();
+require ('iluminati/template.php');
+require ('iluminati/helper.php');
+require ('iluminati/command.php');

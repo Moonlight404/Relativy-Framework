@@ -6,12 +6,16 @@ O Relativy é uma estrutura de aplicativos da web com sintaxe expressiva e elega
 
 - [Facil, e rapidas rotas]
 
+## Como executar o Relativy
+- Execute o comando `php server` na pasta raiz do Relativy
+
+## Comandos 
+- Execute `php make` na pasta raiz do Relativy
+
 ## Contribuindo
 
 Obrigado por considerar contribuir com o framework Relativy!
 
-## Como executar o Relativy
-- Execute o comando php server.php na pasta raiz do Relativy
 
 ## License
 

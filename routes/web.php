@@ -7,4 +7,4 @@
  */
 //Create route
 //using route(link)
-//Create file with link name
+//Create file with link named
