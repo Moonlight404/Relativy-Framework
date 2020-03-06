@@ -1,4 +1,10 @@
 <?php
+/**
+ * Relavify - A PHP Framework For Web
+ *
+ * @package  Relavify
+ * @author   Alexandre Silva
+ */
 function route($link){
     $ht = fopen("../public/.htaccess","a");
     fwrite($ht, "RewriteRule ^$link ./views/$link.php [L]\n");
