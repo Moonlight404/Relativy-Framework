@@ -20,3 +20,4 @@ Obrigado por considerar contribuir com o framework Relativy!
 ## License
 
 The Relativy framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
