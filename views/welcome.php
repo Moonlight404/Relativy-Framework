@@ -59,6 +59,7 @@
         <div class="flex-center position-ref full-height">
             <div class="content">
                 <div class="title m-b-md">
+                Bem vindo ao <br>
                     Relativy Framework
                 </div>
             </div>
