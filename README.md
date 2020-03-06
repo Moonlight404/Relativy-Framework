@@ -12,10 +12,16 @@ O Relativy é uma estrutura de aplicativos da web com sintaxe expressiva e elega
 ## Comandos 
 - Execute `php make` na pasta raiz do Relativy
 
+### Como faço pra criar uma View?
+
+Se pode fazer por 2 maneiras:
+- 1 - Criando o view direto nas pasta /views, por exemplo:
+      Nome da minha view vai ser HelloWorld, então eu crio helloWorld dentro da pasta /views,
+      Pra acessar ela, eu irei em http://localhost:$porta/helloWorld
+
 ## Contribuindo
 
 Obrigado por considerar contribuir com o framework Relativy!
-
 
 ## License
 
