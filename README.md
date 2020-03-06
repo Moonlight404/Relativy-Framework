@@ -10,6 +10,9 @@ O Relativy é uma estrutura de aplicativos da web com sintaxe expressiva e elega
 
 Obrigado por considerar contribuir com o framework Relativy!
 
+## Como executar o Relativy
+- Execute o comando php server.php na pasta raiz do Relativy
+
 ## License
 
 The Relativy framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
