@@ -5,6 +5,6 @@ function serverInit(){
     $port = $json['port'];
     $exec = "cd public && php -S localhost:$port && cls && clear";
     echo "Aguarde um momento";
-    echo "\nServer iniciado com sucesso\n Acesse usando http://127.0.0.1:$port\n Logs: ";
+    echo "\nServer iniciado com sucesso\n Acesse usando http://localhost:$port\n Logs: ";
     $server = shell_exec($exec);
 }
