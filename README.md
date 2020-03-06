@@ -18,6 +18,7 @@ Se pode fazer por 2 maneiras:
 - 1 - Criando o view direto nas pasta /views, por exemplo:
       Nome da minha view vai ser HelloWorld, então eu crio helloWorld dentro da pasta /views,
       Pra acessar ela, eu irei em http://localhost:$porta/helloWorld
+- 2 - Use o comando php make, e selecione `Criar uma rota`, passe a rota
 
 ## Contribuindo
 
