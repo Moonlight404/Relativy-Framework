@@ -18,10 +18,16 @@ function makeFileRoute(){
     echo "http://localhost:$port/";
     $url = fopen ("php://stdin","r");
     $link = fgets($url);
+    $link = str_replace(' ', '', $link);
+    $link = str_replace("> <", "><", $link);
+    $link = str_replace("&nbsp;"," ",$link);
+    $link = str_replace("\n", "", $link);
+    $link = str_replace("\r", "", $link);
+    $link = preg_replace('/\s/',' ',$link);
     $myFile = "views/$link.php";
     $handle = fopen($myFile, 'w') or die('Cannot open file:  '.$myFile); //implicitly creates file
     $editTemplate = fopen($myFile, 'w') or die('Cannot open file:  '.$myFile);
     $data = template($link);
     fwrite($editTemplate, $data);
-    echo alo("Rota criada com sucesso, basta acessar em $myFile");
+    echo alo("Rota criada com sucesso, código fica em $myFile\nPra acessar ela use http://localhost:$port/$link");
 }
