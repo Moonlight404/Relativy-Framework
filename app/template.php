@@ -11,7 +11,9 @@ function template(){
     if($url === "/"){
         view("welcome");
     } else{
+        if($url){
         view($url);
+        }
     }
 }
 

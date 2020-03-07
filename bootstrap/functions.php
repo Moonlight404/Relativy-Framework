@@ -6,10 +6,11 @@ function view($file){
     if($sucess){
         $sucess = true;
     } else{
+        $dir = include("../views/{$file}/index.php");
+        if($dir){
+            $dir = true;
+        } else{
         require "../app/404.php";
+        }
     }
-}
-// $url = $_SERVER['REQUEST_URI'];
-// if($url === "/"){
-//     view("welcome");
-// }
+}   
