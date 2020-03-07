@@ -35,8 +35,8 @@ Existem 2 tipos de framework já integrada;
 Se pode editar no env.json, em framework
 
 ### Como faço pra por em uma página minha o framework CSS?
-- Vai em alguma view e coloque `<?php css();?>` para CSS
--Vai em alguma view e coloque `<?php js();?>` para JS, tente colocar antes de fechar o body
+- Vai em alguma view e coloque `<?php css();?>` para CSS,
+- Vai em alguma view e coloque `<?php js();?>` para JS, tente colocar antes de fechar o body
 
 ## Contribuindo
 
