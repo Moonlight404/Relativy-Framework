@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/Moonlight404/Relativy-Framework/blob/master/img/logo.png?raw=true" width="400"></p>
+<p align="center"><img src="https://github.com/Moonlight404/Relativy-Framework/blob/master/img/logo_2.png?raw=true" width="400"></p>
 
 ## Sobre Relativy
 
