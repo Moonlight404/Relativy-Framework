@@ -1,6 +1,7 @@
 <?php
 //Function view
 function view($file){
+    $isDir = filetype("../views/{$file}.php");
     $sucess = include("../views/{$file}.php");
     if($sucess){
         $sucess = true;

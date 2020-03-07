@@ -5,9 +5,14 @@
  * @package  Relavify
  * @author   Alexandre Silva
  */
-$url = $_SERVER['REQUEST_URI'];
-if($url === "/"){
-    view("welcome");
-} else{
-    view($url);
+
+function template(){
+    $url = $_SERVER['REQUEST_URI'];
+    if($url === "/"){
+        view("welcome");
+    } else{
+        view($url);
+    }
 }
+
+template();
