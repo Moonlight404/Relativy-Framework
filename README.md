@@ -14,11 +14,23 @@ O Relativy é uma estrutura de aplicativos da web com sintaxe expressiva e elega
 
 ### Como faço pra criar uma View?
 
-Se pode fazer por 2 maneiras:
+Se pode fazer por 3 maneiras:
 - 1 - Criando o view direto nas pasta /views, por exemplo:
       Nome da minha view vai ser HelloWorld, então eu crio helloWorld dentro da pasta /views,
       Pra acessar ela, eu irei em http://localhost:$porta/helloWorld
 - 2 - Use o comando php make, e selecione `Criar uma rota`, passe a rota
+- 3 - Se pode criar uma pasta dentro /views por exemplo /HelloWorld, e depois criar um arquivo index.php dentro da pasta HelloWorld
+      Para acessar seria http://localhost:$porta/helloWorld
+
+### Como colocar framework CSS?
+Existem 2 tipos de framework já integrada;
+- bootstrap
+- bulma
+Se pode editar no env.json, em framework
+
+### Como faço pra por em uma página minha o framework CSS?
+Vai em alguma view e coloque `<?php css();?>` para CSS
+Vai em alguma view e coloque `<?php js();?>` para JS, tente colocar antes de fechar o body
 
 ## Contribuindo
 
