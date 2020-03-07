@@ -1,39 +1,14 @@
-<?php
-/**
- * Relavify - A PHP Framework For Web
- *
- * @package  Relavify
- * @author   Alexandre Silva
- */
-
-require ("bootstrap/framework.php");
-
-function css(){
-    $str = file_get_contents('env.json');
-    $json = json_decode($str, true);
-    $framework = $json['framework'];
-    echo frameworkCSS($framework);
-}
-
-function js(){
-    $str = file_get_contents('env.json');
-    $json = json_decode($str, true);
-    $framework = $json['framework'];
-    echo frameworkJS($framework);
-}
-
-function template($h1){
-    $template = '<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>'.$h1.'</title>
+        <title>anelise</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-        '. css() .'
+        
 
         <!-- Styles -->
         <style>
@@ -85,12 +60,10 @@ function template($h1){
         <div class="flex-center position-ref full-height">
             <div class="content">
                 <div class="title m-b-md">
-                    '.$h1.'
+                    anelise
                 </div>
             </div>
         </div>
     </body>
-    '. js() .'
-</html>';
-            return $template;
-}
+    
+</html>
