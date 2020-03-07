@@ -12,9 +12,7 @@ require 'vendor/autoload.php';
 
 function command(){
     echo "Qual comando queres executar?\n";
-    for($i = 0; $i < 1; $i++){
-        echo "1- Criar uma rota\n";
-    }
+    echo "1- Criar uma rota\n";
     echo "Escolha um comando: ";
     $resposta = fopen ("php://stdin","r");
     $line = fgets($resposta);

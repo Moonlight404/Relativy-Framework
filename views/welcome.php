@@ -8,6 +8,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <?php css();?>
 
         <!-- Styles -->
         <style>
@@ -65,4 +66,5 @@
             </div>
         </div>
     </body>
+    <?php js();?>
 </html>

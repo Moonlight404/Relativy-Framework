@@ -1,5 +1,10 @@
 <?php
-
+/**
+ * Relavify - A PHP Framework For Web
+ *
+ * @package  Relavify
+ * @author   Alexandre Silva
+ */
 function template($h1){
     $template = '<!DOCTYPE html>
 <html>
@@ -11,6 +16,7 @@ function template($h1){
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        '. css() .'
 
         <!-- Styles -->
         <style>
@@ -67,6 +73,7 @@ function template($h1){
             </div>
         </div>
     </body>
+    '. js() .'
 </html>';
             return $template;
 }
