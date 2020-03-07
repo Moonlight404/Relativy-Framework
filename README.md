@@ -6,6 +6,9 @@ O Relativy é uma estrutura de aplicativos da web com sintaxe expressiva e elega
 
 - [Facil, e rapidas rotas]
 
+## Requisitos minimos
+PHP 7.X, composer
+
 ## Como executar o Relativy
 - Execute o comando `composer create-project relativy/relativy`
 - Excute o comando cd relativy
