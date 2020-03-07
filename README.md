@@ -7,7 +7,11 @@ O Relativy é uma estrutura de aplicativos da web com sintaxe expressiva e elega
 - [Facil, e rapidas rotas]
 
 ## Como executar o Relativy
+- Configure no env.json
 - Execute o comando `php server` na pasta raiz do Relativy
+
+### Duvida sobre OS no env.json
+Existem 2 tipos, windows e linux
 
 ## Comandos 
 - Execute `php make` na pasta raiz do Relativy
