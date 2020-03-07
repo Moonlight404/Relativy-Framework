@@ -8,3 +8,4 @@
 require ('iluminati/template.php');
 require ('iluminati/helper.php');
 require ('iluminati/command.php');
+require ('iluminati/option.php');
