@@ -35,6 +35,7 @@ Se pode fazer por 3 maneiras:
 Existem 2 tipos de framework já integrada;
 - bootstrap
 - bulma
+
 Se pode editar no env.json, em framework
 
 ### Como faço pra por em uma página minha o framework CSS?
